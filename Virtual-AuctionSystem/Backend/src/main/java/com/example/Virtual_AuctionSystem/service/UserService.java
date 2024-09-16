@@ -4,7 +4,6 @@ import com.example.Virtual_AuctionSystem.controller.request.UserRequest;
 import com.example.Virtual_AuctionSystem.entity.User;
 import com.example.Virtual_AuctionSystem.repository.UserRepository;
 import jakarta.transaction.Transactional;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -4,7 +4,6 @@ import com.example.Virtual_AuctionSystem.controller.request.UserRequest;
 import com.example.Virtual_AuctionSystem.entity.User;
 import com.example.Virtual_AuctionSystem.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
