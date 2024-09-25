@@ -1,8 +1,9 @@
-package com.example.Virtual_AuctionSystem.repository;
+package com.example.Virtual_AuctionSystem.Backend.repository;
 
-import com.example.Virtual_AuctionSystem.entity.Auction;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.example.Virtual_AuctionSystem.Backend.entity.Auction;
 
 import java.util.Optional;
 

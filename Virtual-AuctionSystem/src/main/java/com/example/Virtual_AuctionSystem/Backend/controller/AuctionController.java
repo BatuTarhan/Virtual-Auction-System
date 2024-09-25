@@ -1,8 +1,8 @@
-package com.example.Virtual_AuctionSystem.controller;
+package com.example.Virtual_AuctionSystem.Backend.controller;
 
-import com.example.Virtual_AuctionSystem.entity.Auction;
-import com.example.Virtual_AuctionSystem.entity.AuctionItem;
-import com.example.Virtual_AuctionSystem.service.AuctionService;
+import com.example.Virtual_AuctionSystem.Backend.entity.Auction;
+import com.example.Virtual_AuctionSystem.Backend.entity.AuctionItem;
+import com.example.Virtual_AuctionSystem.Backend.service.AuctionService;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

@@ -1,9 +1,10 @@
-package com.example.Virtual_AuctionSystem.service;
+package com.example.Virtual_AuctionSystem.Backend.service;
 
-import com.example.Virtual_AuctionSystem.entity.Auction;
-import com.example.Virtual_AuctionSystem.entity.AuctionItem;
-import com.example.Virtual_AuctionSystem.repository.AuctionItemRepository;
-import com.example.Virtual_AuctionSystem.repository.AuctionRepository;
+import com.example.Virtual_AuctionSystem.Backend.entity.Auction;
+import com.example.Virtual_AuctionSystem.Backend.entity.AuctionItem;
+import com.example.Virtual_AuctionSystem.Backend.repository.AuctionItemRepository;
+import com.example.Virtual_AuctionSystem.Backend.repository.AuctionRepository;
+
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

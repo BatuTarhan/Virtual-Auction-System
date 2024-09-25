@@ -1,4 +1,4 @@
-package com.example.Virtual_AuctionSystem.controller.request;
+package com.example.Virtual_AuctionSystem.Backend.controller.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
