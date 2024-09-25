@@ -2,6 +2,7 @@ package com.example.Virtual_AuctionSystem.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Entity
 @Table(name = "account")
