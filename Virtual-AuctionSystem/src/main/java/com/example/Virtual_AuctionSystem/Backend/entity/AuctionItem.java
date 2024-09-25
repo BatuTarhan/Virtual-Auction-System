@@ -1,13 +1,14 @@
 package com.example.Virtual_AuctionSystem.Backend.entity;
 
-
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name = "auctionItems")
-@Data
+@Getter
+@Setter
 @RequiredArgsConstructor
 public class AuctionItem {
     @Id

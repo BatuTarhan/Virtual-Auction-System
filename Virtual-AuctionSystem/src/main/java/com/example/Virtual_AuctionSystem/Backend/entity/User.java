@@ -1,11 +1,16 @@
 package com.example.Virtual_AuctionSystem.Backend.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name = "users")
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
 public class User {
 
     @Id
@@ -17,8 +22,9 @@ public class User {
     private String mail;
     private String phone;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.ALL) // Link back to Account
     @JoinColumn(name = "accountId", referencedColumnName = "accountId")
+    @JsonBackReference // Prevents infinite recursion in JSON serialization
     private Account account;
 
     public User(String name, String mail, String phone) {
